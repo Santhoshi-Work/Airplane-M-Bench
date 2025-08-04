@@ -7,6 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "airplane",
+  "is_published",
+  "route",
   "column_break_uqsm",
   "status",
   "airport_details_section",
@@ -113,10 +115,23 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_published",
+   "fieldtype": "Check",
+   "label": "Is Published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
  "grid_page_length": 50,
+ "has_web_view": 1,
  "index_web_pages_for_search": 1,
+ "is_published_field": "is_published",
  "is_submittable": 1,
  "links": [
   {
@@ -124,7 +139,7 @@
    "link_fieldname": "flight"
   }
  ],
- "modified": "2025-08-01 16:06:15.609330",
+ "modified": "2025-08-04 11:04:08.866984",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airplane Flight",
@@ -144,6 +159,7 @@
    "write": 1
   }
  ],
+ "route": "flights",
  "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
