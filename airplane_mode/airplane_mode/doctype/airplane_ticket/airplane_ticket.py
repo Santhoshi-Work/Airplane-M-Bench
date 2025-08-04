@@ -23,7 +23,7 @@ class AirplaneTicket(Document):
 		# self.set_seat()
 		# self.seat=f"{random.randint(1,100)}{random.choice(['A','B','C','D','E'])}"
 	# self.seat = f"{random.randint(1, 100)}{random.choice(string.ascii_uppercase[:5])}"
-	def set_seat(self):
+	def before_insert(self):
 		self.seat = f"{random.randint(1, 100)}{random.choice(string.ascii_uppercase[:5])}"
 
 

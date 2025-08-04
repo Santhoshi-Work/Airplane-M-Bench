@@ -22,8 +22,7 @@
   {
    "fieldname": "last_name",
    "fieldtype": "Data",
-   "label": "Last Name",
-   "reqd": 1
+   "label": "Last Name"
   },
   {
    "fieldname": "date_of_birth",
@@ -46,7 +45,7 @@
    "link_fieldname": "passenger"
   }
  ],
- "modified": "2025-08-01 12:41:37.328381",
+ "modified": "2025-08-04 14:27:05.640392",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Flight Passenger",
