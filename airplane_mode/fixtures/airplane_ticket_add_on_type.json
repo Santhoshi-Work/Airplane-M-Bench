@@ -1,0 +1,30 @@
+[
+ {
+  "description": "Need to Pay The Money based on Weightage",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-08-05 11:18:01.362903",
+  "name": "Extra Baggage"
+ },
+ {
+  "description": "A Special seat for a beautiful view",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-08-05 11:18:57.863059",
+  "name": "Window Seat"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-08-01 15:58:11.288386",
+  "name": "Drinks"
+ },
+ {
+  "description": "Food we offer",
+  "docstatus": 0,
+  "doctype": "Airplane Ticket Add-on Type",
+  "modified": "2025-08-01 12:57:02.421199",
+  "name": "Food"
+ }
+]

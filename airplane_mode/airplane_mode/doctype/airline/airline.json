@@ -4,11 +4,15 @@
  "autoname": "prompt",
  "creation": "2025-07-25 18:22:32.603335",
  "doctype": "DocType",
+ "documentation": "website",
  "engine": "InnoDB",
  "field_order": [
   "founding_year",
   "customer_care_number",
-  "headquarters"
+  "headquarters",
+  "website",
+  "visit_website",
+  "image"
  ],
  "fields": [
   {
@@ -29,9 +33,26 @@
    "fieldtype": "Data",
    "label": "Headquarters",
    "reqd": 1
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
+  },
+  {
+   "fieldname": "visit_website",
+   "fieldtype": "HTML",
+   "label": "Visit Website"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
   }
  ],
  "grid_page_length": 50,
+ "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [
   {
@@ -39,7 +60,7 @@
    "link_fieldname": "airline"
   }
  ],
- "modified": "2025-07-28 11:16:03.720336",
+ "modified": "2025-08-05 16:13:29.654278",
  "modified_by": "Administrator",
  "module": "Airplane Mode",
  "name": "Airline",
@@ -57,6 +78,45 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Fleet Manager",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Travel Agent",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Airport Authority Personnel",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Flight Crew Member",
+   "share": 1
   }
  ],
  "row_format": "Dynamic",

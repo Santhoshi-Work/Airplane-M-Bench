@@ -5,6 +5,13 @@ app_description = "A Custom App which allows users to book tickets!"
 app_email = "saisanthoshi.k.navtech.io@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "doctype": "Airplane Ticket Add-on Type"
+    }
+]
+app_include_js = "/doctype/airline/airline.js"
+
 # Apps
 # ------------------
 
